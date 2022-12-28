@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(81, 148, 120), rgb(13, 41, 24) );
+ 
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo{
+    background-attachment: fixed;
+    max-height: 18vh;
+    border-radius: 50%;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+ul li a{
+    
+    color: #000000f6;
+    text-decoration: none;
+    text-transform: initial;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+}
+
+ul li a.menu:hover{
+   
+    border-width: 20px;
+    font-size: 1.7em;
+    font-weight: bolder;
+    background-color: rgba(219, 231, 226, 0.185);
+    
+}
+
+ul li a.menu::before{
+    content: '';
+    width: 0px;
+    height: 5px;
+    background: rgba(63, 114, 89, 0.712);
+    position: absolute;
+    bottom: -12%;
+    left: 0%;
+    transition: .5s;
+}
+
+ul li:hover a.menu::before{
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    transform: translate(100%)
+}
+
+h1.saudacao{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1.5px solid rgb(5, 43, 5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 250px ;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+section > article{
+    color: ghostwhite;
+    font-size: 1.5em;
+    width: 60vw;
+    padding: 60px;
+    margin: auto;
+    text-align: justify;
+}
+
+footer{
+    color: #ffffff;
+    font-style: oblique;
+    height: 50px;
+    background: rgb(4, 24, 4);
+    font-size: 1.3em;
+    padding: 8px;
+    text-align: center;
+}
+
+footer a{
+    color:azure;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    font-size: 1.4em;
+    color: green;
+}
