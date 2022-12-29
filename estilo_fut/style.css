@@ -1,6 +1,6 @@
 @charset "UTF-8"
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -22,7 +22,7 @@ h1{
     font-size: max(26px, 2.5vw);
     font-weight: lighter;
     border: 1.5px solid rgb(7, 59, 7);
-    padding: 20px;
+    padding: 22px;
     max-width: 40vw;
     background-attachment: fixed;
     border-style: groove;
@@ -34,11 +34,11 @@ img{
     display: flex;
     position: absolute;
     height: max(60px, 80px);
-    margin-top: -25px;
+    margin-top: -19px;
 
 }
 
-@media(max-width: 1380px){
+@media(max-width: 1390px){
     img{ 
         height: 50px;
         margin: 0px;
