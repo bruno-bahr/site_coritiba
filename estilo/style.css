@@ -120,15 +120,17 @@ h1.saudacao{
         margin-top: 220px;
         margin-left: -30px;
     }
+
 }
 
 section > article{
     color: ghostwhite;
-    font-size: 1.5em;
+    font-size: 1.3em;
     width: 70vw;
-    padding: 60px;
+    padding: 30px;
     margin: auto;
     text-align: justify;
+    word-spacing: 5px;
 }
 
 footer{
