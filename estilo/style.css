@@ -43,10 +43,12 @@ header ul{
 }
 
 header ul li{
-    list-style: none;
+    list-style: none;    
+}
+
+.nav > li{
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 ul li a{
@@ -85,11 +87,12 @@ ul li:hover a.menu::before{
 
 h1.saudacao{
     color: #ffffff;
+    font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     border: 1.5px solid rgb(5, 43, 5);
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
     margin-top: 250px ;
     margin-left: 25px;
@@ -106,12 +109,15 @@ h1.saudacao{
 
 @media (max-width: 850px){
     .nav{
+        display: flex;
         position: absolute;
         font-size: small;
-        margin-left: -20px;
-        width:95vw;
-        margin-right: 20px;
-       
+          
+    }
+
+    .nav > li{
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .logo{
@@ -126,8 +132,8 @@ h1.saudacao{
 
 section > article{
     color: ghostwhite;
-    font-size: max(1em, 1.4em);
-    width: 70vw;
+    font-size: max(0.8em, 1.4em);
+    width: 80vw;
     padding: 30px;
     margin: auto;
     text-align: justify;
