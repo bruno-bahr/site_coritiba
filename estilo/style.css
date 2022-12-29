@@ -104,7 +104,7 @@ h1.saudacao{
     margin: 8px;
 } 
 
-@media (max-width: 820px){
+@media (max-width: 850px){
     .nav{
         position: absolute;
         font-size: small;
@@ -123,9 +123,10 @@ h1.saudacao{
 
 }
 
+
 section > article{
     color: ghostwhite;
-    font-size: 1.3em;
+    font-size: max(1em, 1.4em);
     width: 70vw;
     padding: 30px;
     margin: auto;
