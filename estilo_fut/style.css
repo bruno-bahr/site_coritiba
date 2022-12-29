@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     margin: 0;
@@ -48,7 +48,8 @@ img{
 
 @media(max-width: 600px){
     iframe{
-        width: 300px;
+        width: 50vw;
+        height: 50vw;
     }
 }
 
