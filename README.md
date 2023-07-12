@@ -8,3 +8,4 @@ I decided to publish it, although it is very basic. It reminds of
 my beggining with frontend and how challenging it was.
 - It sure needs some improvement, but I have been busy and I am not
 sure when I will do it. Hope some time soon.
+- You can check it by clicking on the github pages link to the right.
